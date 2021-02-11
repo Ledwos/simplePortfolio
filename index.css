@@ -1,4 +1,4 @@
-#test {
+.img-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -12,9 +12,13 @@
     color: white;
 }
 
-.img-box:hover #test {
+.img-box:hover .img-overlay {
     opacity: 1;
 }
+
+/* .img-box img {
+    max-height: 78%;
+} */
 
 .card {
     min-width: 200px;
@@ -37,4 +41,8 @@
 
 .footer-nav li:nth-child(-n+2):after {
     content: " | "
+}
+
+.homeBody, .blogBody, .aboutBody {
+    min-height: 70vh;
 }
