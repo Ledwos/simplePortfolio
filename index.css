@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 77%;
+    height: 78%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -20,4 +20,21 @@
     min-width: 200px;
     max-width: 300px;
     margin: 15px;
+}
+
+.footer-nav {
+    padding-left: 0;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav li:nth-child(-n+2):after {
+    content: " | "
 }
